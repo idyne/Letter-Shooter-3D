@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &576889031785371690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 576889031785371688}
+  - component: {fileID: 6426594854444331286}
+  - component: {fileID: 7210438465644896577}
+  - component: {fileID: 2875271558066364880}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &576889031785371688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6426594854444331286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b86ca0fc2be3614c91db65ce4e3608a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7210438465644896577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0505a85dfe0b7458514c5249bc0682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  playerStunTime: 2
+  competitorStunTime: 6
+  Competitors: []
+  end: {fileID: 0}
+  x20: {fileID: 0}
+  cubeImpactEffectPrefab: {fileID: 9059084662919979911, guid: fd248f2d94bec8d42bbee33e965f4d81, type: 3}
+  stunnedEffectPrefab: {fileID: 1846532664448058, guid: 20980e90dd2e73b419275714d5c124c4, type: 3}
+  finishCameraPosition: {fileID: 0}
+  playerPrefab: {fileID: 2176235342539168265, guid: 0948a81d49619da4abde3ddc6ac6932b, type: 3}
+  competitorPrefab: {fileID: 8733586674286643220, guid: 71362898b0fce554590f1cf6319b5bbb, type: 3}
+  finishLine: {fileID: 0}
+  goldText: {fileID: 0}
+  keyText: {fileID: 0}
+  GoldMultiplier: 1
+  PlayerPlace: 1
+--- !u!114 &2875271558066364880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576889031785371690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9249e2567785d3439d08156c2b97444, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wordStackCount: 3
+  distanceBetweenWordStacks: 10
+  words:
+  - word: COW
+  - word: BULL
+  - word: PEN
+  - word: FATE
+  - word: ART
+  - word: GLASS
+  - word: ELF
+  - word: BELT
+  - word: BABY
+  - word: FACE
+  - word: BOOK
+  - word: GOOD
+  - word: IDEA
+  - word: LIST
+  - word: NAME
+  - word: PIPE
+  - word: BIRD
+  - word: ROAD
+  - word: SHUT
+  - word: SHOW
+  - word: TANK
+  - word: TEAM
+  - word: USER
+  - word: WEAK
+  - word: WORD
+  - word: ARMY
+  - word: BATH
+  - word: GAME
+  - word: FOCUS
+  - word: MONEY
+  wordStackPrefab: {fileID: 83109717283625414, guid: cabe8d4efa29c0c45ae4428f4531ec92, type: 3}
+  platforms: []
+  tribune: {fileID: 0}
